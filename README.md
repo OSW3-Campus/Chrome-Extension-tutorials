@@ -1,8 +1,6 @@
-# Création d'un projet vierge
+# Ajouter l'icone de l'extension
 > ### Objectifs :
-> Créer la base d'une extension vierge et l'ajouter aux extensions Chrome.
-> ### Notes :
-> Dans ce cours, le terme **my-project** réprésente le nom du projet. Remplacez ce terme par le nom de votre projet.
+> Ajouter l'icone de l'extension
 
 
 
@@ -17,15 +15,9 @@ cd my-project
 
 # Configuration du projet
 
-Le fichier de configuration principal du projet s'appel `manifest.json`.
-
-## Création du manifest
-
 ```bash
 touch manifest.json
 ```
-
-## Ajouter les paramètres
 
 ```json
 {
@@ -48,3 +40,36 @@ Ajouter le projet de l'extension Chrome au navigateur Chrome pour un aperçu du 
 4. Sélectionner le répertoire de votre projet `my-project`.
 
 Chrome à ajouter votre extension à la liste des extensions de votre navigatuer, et un icon de substitusion dans la barre d'extensions.
+
+
+
+# Ajouter les fichiers images
+
+## Créer le répertoire `images``
+
+```bash
+mkdir images
+```
+
+## Ajouter les images dans le répertoire
+
+Ajouter les images de la liste suivante dans le répertoire `images`
+
+- `img16.png` ([télécharger]())
+- `img32.png` ([télécharger]())
+- `img48.png` ([télécharger]())
+- `img64.png` ([télécharger]())
+
+## Ajouter les images au `manifest`
+
+```json
+{
+    // ...
+    "icons": {
+        "16": "images/img16.png",
+        "32": "images/img32.png",
+        "48": "images/img48.png",
+        "64": "images/img64.png"
+    }
+}
+```
