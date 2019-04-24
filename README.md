@@ -1,8 +1,6 @@
-# Création d'un projet vierge
+# Créer un script
 > ### Objectifs :
-> Créer la base d'une extension vierge et l'ajouter aux extensions Chrome.
-> ### Notes :
-> Dans ce cours, le terme **my-project** réprésente le nom du projet. Remplacez ce terme par le nom de votre projet.
+> Ajouter un premier script
 
 
 
@@ -48,3 +46,47 @@ Ajouter le projet de l'extension Chrome au navigateur Chrome pour un aperçu du 
 4. Sélectionner le répertoire de votre projet `my-project`.
 
 Chrome à ajouter votre extension à la liste des extensions de votre navigatuer, et un icon de substitusion dans la barre d'extensions.
+
+
+
+# Créer le script
+
+## Créer le répertoire `scripts`
+
+Créer le répertoire de stockage des scripte JavaScript, à la racine de l'extension.
+
+```bash
+mkdir scripts
+```
+
+## Ajouter un fichier de script
+
+Ajouter un premier fichier de script `hello.js`
+
+### Créer le fichier
+
+```bash
+touch scripts/hello.js
+```
+
+### Ajouter le script
+
+```javascript
+"use strict";
+alert("Hello Worlds");
+```
+
+## Indexer le script
+
+Dans le `manifest.json`, ajouter la configuration permettant d'indexer et exécuter le script.
+
+```jsonc
+{
+    // ...
+    "background": {
+        "scripts": ["scripts/hello.js"]
+    }
+}
+```
+
+Dès que l'extension sera (re)charger dans Chrome, une boite de dialogue avec le message "Hello World" apparait.

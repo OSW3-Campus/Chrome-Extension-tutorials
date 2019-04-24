@@ -1,7 +1,12 @@
 {
-    "name": "Exemple d'extension Chrome.",
+    "name": "Alert \"Hello World\".",
     "version": "1.0",
     "manifest_version": 2,
 
-    "description": "Création d'une extension Chrome avec OSW3-Campus !"
+    "description": "Affiche une boite de dialogue de type \"Alert\" avec le message Hello World.",
+
+    "background": {
+        "scripts": ["scripts/hello.js"],
+        "persistent": false
+    }
 }
