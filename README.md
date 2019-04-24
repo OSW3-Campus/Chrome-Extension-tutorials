@@ -8,5 +8,5 @@
 - Chapitre xx : [Icones](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/tree/icons)
 
 
-- Chapitre xx : [Ajouter l'extension au menu contextuel]
+- Chapitre xx : [Ajouter une action au menu contextuel]
 - Chapitre xx : [Ajouter une page de configuration de l'extension]
