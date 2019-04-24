@@ -55,10 +55,10 @@ mkdir images
 
 Ajouter les images de la liste suivante dans le répertoire `images`
 
-- `img16.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/blob/icons/images/img16.png))
-- `img32.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/blob/icons/images/img32.png))
-- `img48.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/blob/icons/images/img48.png))
-- `img64.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/blob/icons/images/img64.png))
+- `img16.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/img16.png))
+- `img32.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/img32.png))
+- `img48.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/img48.png))
+- `img64.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/img64.png))
 
 ## Ajouter les images au `manifest`
 
