@@ -31,8 +31,8 @@ touch manifest.json
 {
     "name": "Exemple d'extension Chrome.",
     "version": "1.0",
-    "description": "Création d'une extension Chrome avec OSW3-Campus !",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "description": "Création d'une extension Chrome avec OSW3-Campus !"
 }
 ```
 
