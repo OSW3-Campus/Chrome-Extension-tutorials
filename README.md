@@ -48,3 +48,58 @@ Ajouter le projet de l'extension Chrome au navigateur Chrome pour un aperçu du 
 4. Sélectionner le répertoire de votre projet `my-project`.
 
 Chrome à ajouter votre extension à la liste des extensions de votre navigatuer, et un icon de substitusion dans la barre d'extensions.
+
+
+
+# Donner les permissions
+
+Donner à l'extension, l'autorisation d'accès à l'API du menu contextuel.
+
+```json
+{
+    "permissions": ["contextMenus"]
+}
+```
+
+
+
+# Créer le script
+
+## Créer le répertoire scripts
+
+Créer le répertoire de stockage des scripts JavaScript, à la racine de l'extension.
+
+```bash
+mkdir scripts
+```
+
+## Ajouter le fichier de script
+
+Ajouter fichier de script dédié au menu contextuel `scripts/contextMenus.js`
+
+### Créer le fichier
+
+```bash
+touch scripts/contextMenus.js
+```
+
+### Ajouter le script
+
+```javascript
+"use strict";
+// ...
+```
+
+
+## Indexer le script
+
+Dans le `manifest.json`, ajouter la configuration permettant d'indexer et exécuter le script.
+
+```json
+{
+    // ...
+    "background": {
+        "scripts": ["scripts/contextMenus.js"]
+    }
+}
+``` 
