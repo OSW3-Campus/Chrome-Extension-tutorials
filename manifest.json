@@ -4,12 +4,10 @@
     "manifest_version": 2,
 
     "description": "Création d'une extension Chrome avec OSW3-Campus !",
-    "default_locale": "fr",
     
     "icons": {
-        "16": "images/img16.png",
-        "32": "images/img32.png",
-        "48": "images/img48.png",
-        "64": "images/img64.png"
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
     }
 }

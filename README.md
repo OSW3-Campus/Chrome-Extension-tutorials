@@ -55,10 +55,9 @@ mkdir images
 
 Ajouter les images de la liste suivante dans le répertoire `images`
 
-- `img16.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/img16.png))
-- `img32.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/img32.png))
-- `img48.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/img48.png))
-- `img64.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/img64.png))
+- `icon16.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/icon16.png))
+- `icon48.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/icon48.png))
+- `icon128.png` ([télécharger](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/raw/icons/images/icon128.png))
 
 ## Ajouter les images au `manifest`
 
@@ -66,10 +65,9 @@ Ajouter les images de la liste suivante dans le répertoire `images`
 {
     // ...
     "icons": {
-        "16": "images/img16.png",
-        "32": "images/img32.png",
-        "48": "images/img48.png",
-        "64": "images/img64.png"
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
     }
 }
 ```
