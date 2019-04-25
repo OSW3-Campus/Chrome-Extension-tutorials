@@ -9,6 +9,6 @@
 - Chapitre xx : [Icones](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/tree/icons)
 
 
-- Chapitre xx : [Stocker des données]
-- Chapitre xx : [Ajouter une action au menu contextuel](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/tree/context-menus)
+- Chapitre xx : [Stocker des données (localstorage)](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/tree/localstorage)
+- Chapitre xx : [Ajouter des actions au menu contextuel](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/tree/context-menus)
 - Chapitre xx : [Ajouter une page de configuration de l'extension]
