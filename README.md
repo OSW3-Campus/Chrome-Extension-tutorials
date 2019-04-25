@@ -1,8 +1,6 @@
-# Création d'un projet vierge
+# Ajouter des actions au menu contextuel
 > ### Objectifs :
-> Créer la base d'une extension vierge et l'ajouter aux extensions Chrome.
-> ### Notes :
-> Dans ce cours, le terme **my-project** réprésente le nom du projet. Remplacez ce terme par le nom de votre projet.
+> Ajouter des actions au menu contextuel
 
 
 
