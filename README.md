@@ -11,4 +11,5 @@
 
 
 - Chapitre xx : [Ajouter des actions au menu contextuel](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/tree/context-menus)
-- Chapitre xx : [Ajouter une page de configuration de l'extension]
+- Chapitre xx : [Ajouter une page de configuration de l'extension](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/tree/settings)
+- Chapitre xx : [Créer une Popup](https://github.com/OSW3-Campus/Chrome-Extension-tutorials/tree/popup)
